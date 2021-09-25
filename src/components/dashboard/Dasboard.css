@@ -1,0 +1,252 @@
+
+
+.dashboard{
+    display: flex;
+  color:rgb(117, 66, 8);
+    flex-direction: row;
+    background:linear-gradient(to left,#e97618, #805019 , #171f55 );
+    
+    padding-bottom: 20px;
+
+    padding-left: 60px;
+    
+}
+.img-dash{
+    height:100px;
+    padding-right: 50px;
+}
+.category{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 20px;
+  
+}
+.right{
+    padding-top: 30px;
+    
+}
+.p-header-dash{
+    color:white;
+    margin-bottom: 15px;
+}
+.left{
+    padding-top: 30px;
+}
+.category-data{
+    font-weight: 1200px;
+    color:white;
+    margin-right: 50px;
+   
+}
+.category-data:hover{
+    text-decoration: underline;
+}
+.course-name{
+    
+    color:white;
+    
+}
+.course-heading{
+    font-weight: 1000px;
+    font-size: 37px;
+    padding-right: 20px;
+    margin-bottom: 15px;
+   
+}
+.code{
+    font-weight: 500px;
+    color: white;
+    margin-bottom: 15px;
+   
+}
+.yellow{
+    color:rgb(241, 197, 1);
+    margin-bottom: 20px;
+  
+    
+}
+.white{
+    color:white;
+}
+.alex{
+border-radius: 50%;
+height: 50px;
+}
+
+.proffesor{
+   
+    display: flex;
+    flex-direction: row;
+   
+   
+}
+.name{
+    padding-top: 17px;
+    color:white;
+    padding-left: 0px;
+    margin-left: 0px;
+}
+.enrol{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    
+   
+}
+.enrolbtn{
+    max-height:50px;
+   width: 130px;
+    background-color: white;
+    color:black;
+ margin-top: 30px;
+    border-radius: 5px;
+
+margin-bottom: 10px;
+padding-top: 16px;
+padding-bottom: 10px;
+padding-left:13px ;
+margin-right: 15px;
+
+    
+}
+
+.enrolbtn-d{
+    max-height:50px;
+   width: 130px;
+    background-color: white;
+    color:black;
+   
+    
+    margin-top: 30px;
+    border-radius: 5px;
+
+margin-bottom: 10px;
+padding-top: 16px;
+padding-bottom: 10px;
+padding-left:13px ;
+margin-right: 15px;
+
+    
+}
+.enrolbtn:hover{
+    background-color: rgb(184, 182, 182);
+}
+.enrolnow{
+    font-weight: bold;
+    font-size: 18px;
+}
+.financialaid{
+    
+    color: white;
+    font-size: 15px;
+}
+.no{
+    font-weight: 800px;
+    font-size: 18px;
+    margin-right: 7px;
+    color: white;
+}
+.no-container{
+    margin-bottom: 50px;
+   
+    margin-top: 50px;
+}
+.No-of-enrol{
+    display: flex;
+    flex-direction: row;
+    margin-top: 30px;
+   
+    font-weight: 700px;
+    color: white;
+}
+.already{
+    font-size: 15px;
+    font-weight: 100px;
+}
+.photo{
+    margin-right: 0px;
+    padding: 0px;
+}
+@media only screen and (max-width:700px)
+{
+    *{
+        margin:0px;
+    }
+  .enrolbtn-d{
+      
+    margin-left: 0px;
+    width:210px;
+    padding: 20px;
+    padding-left: 20px;
+    margin-bottom: 40px;
+  }
+  .img-dash{
+      height:60px;
+  }
+  .name{
+    padding-top: 39px;
+  
+    color:white
+}
+  .professor{
+    
+      
+  
+  }
+  .photo{
+margin-right: 0px;
+  }
+.dashboard{
+    flex-direction: column;
+    padding-left: 30px;
+    margin:auto;
+  width: 120%;
+    padding-right:40px;
+}
+.pad-ex-cert{
+    font-size: 17px;
+    margin-left: 15px;
+    padding-top: 0px;
+}
+.alex{
+    height: 50px;
+}
+.course-heading{
+    
+    font-size: 27px;
+    padding-right: 5px;
+}
+.code{
+    padding-right: 50px;
+}
+.right{
+    padding-left:50px ;
+}
+.category{
+  flex-direction: column;
+}
+.category-data{
+    margin-right: 0px;
+    font-weight: 800px;
+}
+.enrol{
+    flex-direction: column;
+    
+     align-items: center;
+}
+.enrolnow{
+    font-size: 25px;
+}
+.no{
+    margin-right: 0px;
+}
+#br{
+    display: none;
+    margin-right: 0px;
+}
+#l{
+    display: none;
+    margin-right: 0px;
+}
+
+}

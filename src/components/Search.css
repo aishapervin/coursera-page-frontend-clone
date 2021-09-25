@@ -1,0 +1,95 @@
+.visually-hidden {
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    height: 1px;
+    overflow: hidden;
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+    font-size: 20px;
+}
+.blogss{
+    padding: 5px;
+}
+.input{
+    height: 28px;
+    
+}
+.btn-search{
+    height:35px;
+    width: 37px;
+    background-color: rgb(78, 78, 235);
+    padding: 5px;
+
+}
+.search-icon{
+    font-size: 13px;
+}
+.searchInputs {
+    margin-top: 5px;
+    display: flex;
+  }
+  
+  .search input {
+    background-color: white;
+    border: 0;
+    border-radius: 2px;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+    font-size: 15px;
+    padding: 13px;
+    height: 25px;
+    width: 250px;
+  }
+  
+  .searchIcon {
+    height: 47px;
+    width: 47px;
+    background-color: rgb(28, 28, 248);
+    display: grid;
+    place-items: center;
+  }
+  
+  input:focus {
+    outline: none;
+  }
+  .searchIcon svg {
+    font-size: 35px;
+  }
+  
+  .dataResult {
+    margin-top: 5px;
+    width: 300px;
+    height: 200px;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    overflow: hidden;
+    overflow-y: auto;
+  }
+  
+  .dataResult::-webkit-scrollbar {
+    display: none;
+  }
+  
+  .dataResult .dataItem {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    color: black;
+  }
+  
+  .dataItem p {
+    margin-left: 10px;
+  }
+  a {
+    text-decoration: none;
+  }
+  
+  a:hover {
+    background-color: lightgrey;
+  }
+  
+  #clearBtn {
+    cursor: pointer;
+  }

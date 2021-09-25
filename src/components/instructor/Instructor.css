@@ -1,0 +1,56 @@
+.instructor{
+    margin-top: 20px;
+    margin-bottom: 90px;
+}
+.alex-in{
+    border-radius: 50%;
+height: 130px;
+margin-left: 60px;
+
+}
+.name-in{
+    color:black;
+    padding-top: 10px;
+}
+.photo{
+    padding-right: 50px;
+}
+.sm{
+    font-size: 15px;
+    height: 8px;
+}
+.alex-name-in{
+    color: rgb(50, 50, 156);
+    text-decoration: underline;
+}
+.fac{
+    font-size: 18px;
+    margin-top: 7px;
+}
+.busi{
+    font-size: 13px;
+    margin-top: 7px;
+    margin-bottom: 7px;
+    color: rgb(170, 63, 63);
+}
+.gre{
+    color: rgb(151, 150, 150);
+}
+.ins{
+  padding-left: 90px;
+  margin-bottom: 50px;
+}
+.ins-ins{
+    color:rgb(58, 58, 58);
+    font-weight: 900px;
+    font-size: 30px;
+}
+@media only screen and (max-width:700px){
+    .alex-in{
+        margin-left:60px
+    }
+    .photo{
+        padding-right: 30px;
+        padding-top: 25px;
+    }
+}

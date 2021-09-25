@@ -1,0 +1,39 @@
+
+
+.sticky {
+  position: sticky;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 10;
+}
+
+
+
+
+.header_link {
+  padding: 20px;
+  color: #314d4a;
+  font-weight: bold;
+  border: none;
+  border-bottom: 3px solid transparent;
+  cursor: pointer;
+  outline: none;
+}
+.headerr{
+  display: flex;
+  justify-content: center;
+  background-color: #fff;
+}
+.selected {
+  border-bottom: 3px solid #11bb9a;
+  color: #11bb9a;
+}
+
+.section {
+  height: 40vh;
+}
+
+@media only screen and (max-width:700px){
+
+}

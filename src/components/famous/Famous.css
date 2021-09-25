@@ -1,0 +1,49 @@
+
+ 
+ .famous{
+   height:240px;
+   overflow-y: hidden;
+   
+   margin-bottom: 0px;
+  
+ }
+ .jj{
+  padding-top: 40px;
+   margin-right: 50px;
+   margin-left: 100px;
+ padding-left: 150px;
+ }
+ .caro-img{
+   object-fit: contain;
+   height:300px;
+ }
+ .name-caro{
+   position: absolute;
+   bottom: 55px;
+   right: 55px;
+   color:rgb(56, 55, 55);
+   
+ }
+ .jj-2{
+   padding-right: 200px;
+   color:rgb(56, 55, 55);
+ }
+ @media screen and (max-width:700px) {
+   .caro-img{
+     height:300px;
+   }
+   .famous{
+     width: 95%;
+     padding: 50px;
+   }
+   .jj{
+     margin-left: 20px;
+     padding-left: 0px;
+     margin-right: 10px;
+     
+   }
+   .jj-2{
+    font-size:10px;
+    padding-right: 40px;
+   }
+ }

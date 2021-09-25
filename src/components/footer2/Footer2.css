@@ -1,0 +1,7 @@
+.footer2{
+    position: fixed;
+    bottom: 0px;
+}
+.not-footer2{
+    display: none;
+}

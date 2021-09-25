@@ -1,0 +1,210 @@
+.learn-main{
+    display: flex;
+    flex-direction: row;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    max-width: 90%;
+}
+.left-learn{
+    display: flex;
+    flex-direction: column;
+}
+.learn-top{
+    display: flex;
+    flex-direction: row;
+    
+    justify-content: center;
+
+    
+    
+    
+}
+.learn-top-left{
+    width:50%;
+    padding: 30px;
+}
+.learn-top-right{
+    width:50%;
+    padding: 30px;
+  
+}
+.learn-bottom{
+    display: flex;
+    flex-direction: row;
+    
+}
+.learn-bottom-left{
+  
+    padding: 30px;
+    width:50%;
+
+}
+.learn-bottom-right{
+    padding: 30px;
+    width:50%;
+}
+
+.left-learn-1{
+    margin-left: 70px;
+    border: 1px solid rgb(214, 211, 211);
+    
+    
+    padding: 20px;
+}
+.left-learn-2{
+    margin-left: 70px;
+    border: 1px solid rgb(223, 221, 221);
+    padding-bottom: 20px;
+    
+}
+.learn-head{
+    
+    color:rgb(114, 111, 111);
+    margin: 15px;
+    padding: 10px;
+}
+.green-tick{
+    color:rgb(4, 179, 4);
+    margin-right: 10px;
+    
+    
+    
+}
+
+.skills{
+
+background-color: rgb(228, 224, 224);
+border-radius: 19px;
+margin-bottom: 10px;
+display: inline-block;
+text-align: center;
+margin-right: 20px;
+margin-left: 10px;
+font-size: 16px;
+padding: 8px;
+}
+.right-learn{
+    
+    
+    padding-left: 40px;
+    width: 100%;
+}
+.icon{
+    height:33px;
+    border-radius: 22px;
+    border: 1.5px solid rgb(206, 202, 202);
+    padding: 5px;
+    margin-right: 20px;
+}
+.icons-plus-desc{
+   
+   display: flex;
+   flex-direction: row;
+   margin-bottom:35px ;
+
+}
+.left-learn-3{
+    margin-left: 65px;
+    margin-top:30px ;
+
+}
+.left-learn-3-up{
+    margin-bottom: 25px;
+}
+.left-learn-3-down{
+    margin-bottom: 25px;
+}
+.greyish-desc{
+    color: rgb(148, 143, 143);
+}
+.greyish-desc-sp{
+    color: rgb(148, 143, 143);
+    margin-bottom: 20px;
+}
+.sp-margin{
+    margin-bottom:15px ;
+}
+@media screen and (max-width:700px)
+{
+    .left-learn-3{
+        margin-left: 40px;
+        width: 115%;
+        margin-right: 0px;
+        padding-right: 0px;
+        
+    }
+    .left-learn-3-up p{
+        padding-right: 0px;
+    }
+    .left-learn-3-down p{
+        padding-right: 0px;
+    }
+    .learn-top{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding-left: 20px;
+          
+
+    }
+    .learn-bottom{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding-left: 20px;
+    
+        
+    }
+    .learn-main{
+        flex-direction: column;
+        max-width: 120%;
+        margin-right: 0px;
+        align-items: center;
+        justify-content: center;
+        
+    }
+    .right-learn{
+            padding-top: 20px;
+        padding-left: 20px;
+        padding-right: 0px;
+        width: 105%;
+        margin-right: 0px;
+        margin-left: 40px;
+    }
+    .left-learn-2{
+      margin-left: 25px;
+      padding: 5px;
+      margin-right: 0px;
+      width: 115%;
+      
+    }
+    .learn-top-left{
+        padding: 20px;
+        
+        width: 100%;
+        margin-right: 0px;
+    }
+    .learn-bottom-left{
+        width: 100%;
+        padding: 20px;
+        margin-right: 0px;
+    }
+    .learn-bottom-right{
+        padding: 20px;
+        width: 100%;
+        margin-right: 0px;
+    }
+    .left-learn-1{
+        margin-left: 25px;
+        padding: 5px;
+        width: 115%;
+        margin-right: 0px;
+    }
+    .learn-top-right{
+    
+        padding: 20px;
+         width: 100%;
+      
+    }
+   
+}
